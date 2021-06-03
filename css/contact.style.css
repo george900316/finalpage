@@ -1,0 +1,123 @@
+body, html{
+	background-color: #E4EFFF;
+	margin: 0;
+	width: 100%;
+	height: 90%;
+}
+p {
+	font-family: 'Noto Sans TC', sans-serif;
+	color: #0047AB;
+	font-size: 20px;
+}
+
+.navbaricon img {
+	width: 30%;
+	height: 80px;
+	margin-bottom: -15px;
+	object-fit: contain;
+}
+.navbar-custom {
+    background-color: #3A58A6;
+}
+   
+.nav-link {
+	color: white!important;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 18px;
+	transition: all 0.5s ease 0s;
+}
+
+.nav-link:hover {
+	color: #c4c4c4!important;
+}
+   
+@media (min-width: 768px) {
+   /*nav選單*/
+    .navbar{
+    padding-left:50px!important;
+    padding-right:70px!important; 
+}
+}
+
+.contact h1{
+	font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+	color: #3A58A6;
+	justify-content: center;
+} 
+
+.contact{
+	margin-top: 130px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 50px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 500px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form button{
+	width: 110px;
+	height: 32px;
+	color: #3A58A6;
+    margin-left: 200px;
+	margin-top: 20px;
+	border: 3px solid #3A58A6;
+	background-color: #3A58A6;
+	border-radius: 14px;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 550;
+}
+
+
+
+.footer {
+	background-color: #3A58A6;
+	display: flex;
+	align-items: center;
+   
+	justify-content: center;
+	width: 100%;
+	height: 50px;
+	margin-top: 0;
+	position: fixed;
+	bottom: 0;
+   }
+   
+   .footer p {
+	color: #ffffff;
+	font-size: 14px;
+	font-family: 'Noto Sans TC', sans-serif;
+	margin-bottom: 0;
+   }
